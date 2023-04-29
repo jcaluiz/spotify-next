@@ -1,7 +1,7 @@
-import PlaylistInTop from './components/PlayListInTop';
-import PlaylistInBotton from './components/PlaylistInBotton';
+import PlaylistInTop from './components/home/PlayListInTop';
+import PlaylistInBotton from './components/home/PlaylistInBotton';
 import Chevron from './components/home/Chevron';
-import ProfileBar from './components/ProfileBar';
+import ProfileBar from './components/home/ProfileBar';
 
 export const metadata = {
   title: 'Spotify - The Best Music',

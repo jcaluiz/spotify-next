@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import Aside from "./Aside";
-import Footer from "./Footer";
+import Aside from "./mainContainer/Aside";
+import Footer from "./mainContainer/Footer";
 
 interface Props {
     children: ReactNode,
@@ -8,7 +8,7 @@ interface Props {
 
 export default function MainContainer({children}: Props) {
     return (
-        <div className="min-h-screen bg-zinc-900 flex flex-col">
+        <div className="min-h-screen bg-zinc-900 flex flex-col relative">
             <div className="flex flex-1">
                 <Aside />
                 <>
