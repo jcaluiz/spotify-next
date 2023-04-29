@@ -6,7 +6,7 @@ import DevicesButtons from "../footer/DevicesButtons";
 
 export default function Footer() {
     return (
-        <footer className="bg-zinc-800 border-t border-zinc-700 px-6 py-4 flex items-center justify-between">
+        <footer className="bg-zinc-800 border-t border-zinc-700 px-6 py-4 flex items-center justify-between sticky bottom-0 w-full">
         <div className='flex items-center gap-2'>
           <MusicOnDisplay />
           <MyButton />
